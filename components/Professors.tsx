@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function Professors() {
   return (
-    <section className="py-20 bg-white text-center">
+    <section className="py-20 bg-white dark:bg-white text-center">
       <h2 className="text-3xl font-bold mb-12 text-gbRed">
         Nuestros Profesores
       </h2>
 
       <div className="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto px-6">
-        <div className="bg-white rounded-xl shadow-lg p-6">
+        <div className="bg-white dark:bg-white rounded-xl shadow-lg p-6">
           <Image
             src="/professor1.jpeg"
             alt="Profesor principal Gracie Barra Aldaia"
@@ -22,7 +22,7 @@ export default function Professors() {
           </p>
         </div>
 
-        <div className="bg-white rounded-xl shadow-lg p-6">
+        <div className="bg-white dark:bg-white rounded-xl shadow-lg p-6">
           <Image
             src="/professor2.jpg"
             alt="Profesor asistente Gracie Barra Aldaia"

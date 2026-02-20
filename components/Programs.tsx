@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Programs() {
   return (
     <section className="py-16 bg-blue-800">
@@ -13,7 +15,16 @@ export default function Programs() {
               principiantes hasta avanzados.
             </p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md">
+          <div className="bg-white dark:bg-white p-6 rounded-lg shadow-md">
+            {/* <div className="w-full flex justify-center"> */}
+            <Image
+              src="/kids.jpg"
+              alt="Programa Infantil"
+              width={200}
+              height={100}
+              className="rounded-lg mb-4"
+            />
+            {/* </div> */}
             <h3 className="text-xl font-semibold mb-4">Programa Infantil</h3>
             <p>
               Clases diseñadas para niños, enfocadas en el desarrollo físico,

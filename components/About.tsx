@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="py-16 px-4 max-w-4xl mx-auto text-center">
+    <section className="py-16 bg-white dark:bg-white px-4 max-w-4xl mx-auto text-center">
       <h2 className="text-3xl font-bold mb-6">
         ¿Por qué elegir Gracie Barra Aldaia?
       </h2>
