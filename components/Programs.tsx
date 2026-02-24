@@ -9,30 +9,48 @@ export default function Programs() {
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-4">Programa de Adultos</h3>
+            <div className="relative w-64 h-75 overflow-hidden">
+              <Image
+                src="/adults.jpg"
+                alt="Programa de Adultos"
+                className="rounded-lg mb-4"
+                fill
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <h3 className="text-xl font-semibold my-4">Programa de Adultos</h3>
             <p>
               Clases de Jiu-Jitsu para adultos de todos los niveles, desde
               principiantes hasta avanzados.
             </p>
           </div>
           <div className="bg-white dark:bg-white p-6 rounded-lg shadow-md">
-            {/* <div className="w-full flex justify-center"> */}
-            <Image
-              src="/kids.jpg"
-              alt="Programa Infantil"
-              width={200}
-              height={100}
-              className="rounded-lg mb-4"
-            />
-            {/* </div> */}
-            <h3 className="text-xl font-semibold mb-4">Programa Infantil</h3>
+            <div className="relative w-64 h-75 overflow-hidden">
+              <Image
+                src="/kids.jpg"
+                alt="Programa Infantil"
+                className="rounded-lg mb-4"
+                fill
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <h3 className="text-xl font-semibold my-4">Programa Infantil</h3>
             <p>
               Clases diseñadas para niños, enfocadas en el desarrollo físico,
               mental y social a través del Jiu-Jitsu.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-4">
+            <div className="relative w-64 h-75 overflow-hidden">
+              <Image
+                src="/competitor.jpg"
+                alt="Programa de Competición"
+                className="rounded-lg mb-4"
+                fill
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <h3 className="text-xl font-semibold my-4">
               Programa de Competición
             </h3>
             <p>
