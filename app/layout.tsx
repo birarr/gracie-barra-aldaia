@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Gracie Barra Aldaia | Jiu-Jitsu Brasileño en Valencia",
   description:
     "Escuela oficial de Jiu-Jitsu Brasileño en Aldaia. Clases para niños y adultos. Reserva tu clase gratuita.",
+  colorScheme: "light",
   keywords: [
     "Gracie Barra Aldaia",
     "Jiu Jitsu Valencia",
@@ -29,8 +30,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es">
-      <body className="bg-white text-gbBlack">
+    <html lang="es" className="bg-white">
+      <body className="bg-white text-gbBlack min-h-screen">
         {children}
         <FloatButton
           icon={<WhatsAppOutlined />}
